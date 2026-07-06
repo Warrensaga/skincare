@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Set Headings and Body Fonts */
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Poppins", sans-serif;
+  
+  /* B2B Premium Cosmetics Color Palette */
+  --color-brand-pink: #FADADD;
+  --color-brand-rosegold: #B76E79;
+  --color-brand-charcoal: #333333;
+  --color-brand-lightgray: #F7F7F7;
+  
+  /* Infinite horizontal brands carousel animation */
+  --animate-carousel: scroll 45s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* Custom global styling details */
+body {
+  font-family: var(--font-sans);
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbar adjustments for a clean, luxurious catalog feeling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F7F7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B76E79;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c4852;
+}

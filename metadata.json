@@ -1,0 +1,6 @@
+{
+  "name": "Glow Wholesale Cosmetics",
+  "description": "A premium, fully responsive B2B wholesale cosmetics e-commerce platform for retailers, beauty shops, and cosmetic distributors in Kenya and East Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
